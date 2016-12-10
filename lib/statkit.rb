@@ -1,5 +1,3 @@
 require "statkit/version"
-
-module Statkit
-  # Your code goes here...
-end
+require 'statkit/cli'
+require 'statkit/specexp'

@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
 require "statkit"
+
+exit(Statkit::CLI.new.run(ARGV))
